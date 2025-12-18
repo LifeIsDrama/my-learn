@@ -13,10 +13,117 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\bit2 字符串">
+      <UniqueIdentifier>{65ab040e-524e-4249-99c1-244ab3507f4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bit2 windows api">
+      <UniqueIdentifier>{b93a4e9e-2184-4c44-95f1-e3bd5f059788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bit01数据类型">
+      <UniqueIdentifier>{0ca4bd14-dfe4-4196-860c-3a5e799c0730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bit02分支和循环">
+      <UniqueIdentifier>{324da7b9-8833-4378-8e26-1b643732c6ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bit03函数">
+      <UniqueIdentifier>{18a46e25-0c15-4517-a1e1-76a2f24695f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bit04数组">
+      <UniqueIdentifier>{7701fd3f-1fce-4406-a402-020ca0ce9afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bit05指针">
+      <UniqueIdentifier>{32180fe1-dc08-4dd9-b060-196edad87e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\bit06结构体">
+      <UniqueIdentifier>{724e7dbe-ab6b-449c-a0da-d70156b7c972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\函数库">
+      <UniqueIdentifier>{67c38cc5-32e7-48dd-97fd-f4202d2fc7c2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="if-learn.cpp">
+      <Filter>源文件\bit02分支和循环</Filter>
+    </ClCompile>
+    <ClCompile Include="while-learn.cpp">
+      <Filter>源文件\bit02分支和循环</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayLearn.cpp">
+      <Filter>源文件\bit04数组</Filter>
+    </ClCompile>
+    <ClCompile Include="strLearn.cpp">
+      <Filter>源文件\bit2 字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="windowsLeaarn.cpp">
+      <Filter>源文件\bit2 windows api</Filter>
+    </ClCompile>
+    <ClCompile Include="funcLearn.cpp">
+      <Filter>源文件\bit03函数</Filter>
+    </ClCompile>
+    <ClCompile Include="mathLearn.cpp">
+      <Filter>源文件\bit03函数</Filter>
+    </ClCompile>
+    <ClCompile Include="boolLearn.c">
+      <Filter>源文件\bit01数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="sortLearn.cpp">
+      <Filter>源文件\bit03函数</Filter>
+    </ClCompile>
+    <ClCompile Include="sortLearn1.cpp">
+      <Filter>源文件\bit03函数</Filter>
+    </ClCompile>
+    <ClCompile Include="sortLearn2.cpp">
+      <Filter>源文件\bit03函数</Filter>
+    </ClCompile>
+    <ClCompile Include="Array2Learn.cpp">
+      <Filter>源文件\bit04数组</Filter>
+    </ClCompile>
+    <ClCompile Include="pointLearn.cpp">
+      <Filter>源文件\bit05指针</Filter>
+    </ClCompile>
+    <ClCompile Include="structLearn.cpp">
+      <Filter>源文件\bit06结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="binaryLearn.cpp">
+      <Filter>源文件\bit01数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="inputoutput.cpp">
+      <Filter>源文件\函数库</Filter>
+    </ClCompile>
+    <ClCompile Include="ctypeLearn.cpp">
+      <Filter>源文件\函数库</Filter>
+    </ClCompile>
+    <ClCompile Include="Array3Learn.cpp">
+      <Filter>源文件\bit04数组</Filter>
+    </ClCompile>
+    <ClCompile Include="funcPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strFunction.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="if-learn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="while-learn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inputoutput.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sortLearn1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sortLearn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="funcLearn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
