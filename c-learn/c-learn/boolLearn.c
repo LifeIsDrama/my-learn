@@ -1,6 +1,9 @@
 #include <stdbool.h>
 #include <stdio.h>
 
+// 定义全局变量
+//int global_var = 666;
+
 /*
 	bool类型使用
 */

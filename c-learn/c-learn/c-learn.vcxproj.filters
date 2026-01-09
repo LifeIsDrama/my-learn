@@ -87,7 +87,7 @@
     <ClCompile Include="structLearn.cpp">
       <Filter>源文件\bit06结构体</Filter>
     </ClCompile>
-    <ClCompile Include="binaryLearn.cpp">
+    <ClCompile Include="binaryLearn.c">
       <Filter>源文件\bit01数据类型</Filter>
     </ClCompile>
     <ClCompile Include="inputoutput.cpp">
@@ -103,7 +103,19 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="strFunction.c">
+      <Filter>源文件\函数库</Filter>
+    </ClCompile>
+    <ClCompile Include="type_learn.c">
+      <Filter>源文件\bit01数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="static_learn.c">
+      <Filter>源文件\bit01数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="const_learn.c">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileName.cpp">
+      <Filter>源文件\bit01数据类型</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -123,6 +135,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="funcLearn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="type_learn.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

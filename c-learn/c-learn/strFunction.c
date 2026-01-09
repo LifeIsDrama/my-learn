@@ -168,7 +168,6 @@ int my_strcmp(char str1[], char str2[]) {
 	
 }
 
-
 void strchr_test() {
 	char str[] = "hlello";
 
@@ -188,7 +187,6 @@ void strchr_test() {
 
 }
 
-
 void strstr_test() {
 	
 	char str1[] = "heaallowoaarld";
@@ -205,6 +203,48 @@ void strstr_test() {
 
 }
 
-int main() {
-	strstr_test();
+char* my_strstr(char str[], char sub[]) {
+
+	int idx = 0;
+	while(str[idx] != '\0') {
+		int tmp = 0;
+		while (sub[tmp] == str[idx + tmp] || sub[tmp] == '\0') {
+			if (sub[tmp] == '\0') {
+				return &str[idx];
+			}
+			tmp++;
+		}
+		idx++;
+	}
+	return NULL;
+
 }
+
+void strtok_test() {
+	char str[] = "Hello, World! How are you?";
+	char* token;
+
+	// 第一次调用，提供原始字符串
+	token = strtok(str, ",! ");
+
+	while (token != NULL) {
+		printf("%s\n", token);
+		// 后续调用传入NULL，从上次结束位置继续
+		token = strtok(NULL, ",,! ");
+	}
+
+}
+
+
+void strtok_test2() {
+	char str[] = "red22322@qq.com";
+
+	char* ret1 = strtok(str, "23");
+	char* ret2 = strtok(NULL, "23");
+
+	printf("%s \n", ret1);
+	printf("%s \n", ret2);
+	printf("%s \n", str);
+}
+
+

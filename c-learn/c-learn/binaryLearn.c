@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+// 定义全局变量
+int global_var = 10;
+
+// 定义全局static，测试作用域是否是文件范文
+static int global_static = 666;
 
 /*
 	计算一个数中，二进制格式中，1的个数

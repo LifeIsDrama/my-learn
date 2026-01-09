@@ -24,9 +24,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <LanguageStandard_C Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdc11</LanguageStandard_C>
     </ClCompile>
-    <ClCompile Include="binaryLearn.cpp" />
+    <ClCompile Include="binaryLearn.c" />
     <ClCompile Include="boolLearn.c" />
+    <ClCompile Include="const_learn.c" />
     <ClCompile Include="ctypeLearn.cpp" />
+    <ClCompile Include="FileName.cpp" />
     <ClCompile Include="funcLearn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
@@ -45,11 +47,13 @@
     <ClCompile Include="sortLearn.cpp" />
     <ClCompile Include="sortLearn1.cpp" />
     <ClCompile Include="sortLearn2.cpp" />
+    <ClCompile Include="static_learn.c" />
     <ClCompile Include="strFunction.c" />
     <ClCompile Include="strLearn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="structLearn.cpp" />
+    <ClCompile Include="type_learn.c" />
     <ClCompile Include="while-learn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -64,6 +68,7 @@
     <ClInclude Include="inputoutput.h" />
     <ClInclude Include="sortLearn.h" />
     <ClInclude Include="sortLearn1.h" />
+    <ClInclude Include="type_learn.h" />
     <ClInclude Include="while-learn.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
