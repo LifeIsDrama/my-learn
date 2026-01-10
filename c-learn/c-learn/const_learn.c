@@ -44,6 +44,3 @@ void str_pos_test() {
 }
 
 
-int main() {
-	str_pos_test();
-}

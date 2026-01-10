@@ -84,7 +84,7 @@
     <ClCompile Include="pointLearn.cpp">
       <Filter>源文件\bit05指针</Filter>
     </ClCompile>
-    <ClCompile Include="structLearn.cpp">
+    <ClCompile Include="struct_learn.c">
       <Filter>源文件\bit06结构体</Filter>
     </ClCompile>
     <ClCompile Include="binaryLearn.c">
@@ -112,10 +112,19 @@
       <Filter>源文件\bit01数据类型</Filter>
     </ClCompile>
     <ClCompile Include="const_learn.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="FileName.cpp">
       <Filter>源文件\bit01数据类型</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_name.c">
+      <Filter>源文件\bit06结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_each.c">
+      <Filter>源文件\bit06结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_point.c">
+      <Filter>源文件\bit06结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_param.c">
+      <Filter>源文件\bit06结构体</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

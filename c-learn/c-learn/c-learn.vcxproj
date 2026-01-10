@@ -28,7 +28,6 @@
     <ClCompile Include="boolLearn.c" />
     <ClCompile Include="const_learn.c" />
     <ClCompile Include="ctypeLearn.cpp" />
-    <ClCompile Include="FileName.cpp" />
     <ClCompile Include="funcLearn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
@@ -52,7 +51,11 @@
     <ClCompile Include="strLearn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="structLearn.cpp" />
+    <ClCompile Include="struct_each.c" />
+    <ClCompile Include="struct_learn.c" />
+    <ClCompile Include="struct_name.c" />
+    <ClCompile Include="struct_param.c" />
+    <ClCompile Include="struct_point.c" />
     <ClCompile Include="type_learn.c" />
     <ClCompile Include="while-learn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
