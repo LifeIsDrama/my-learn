@@ -2,6 +2,18 @@
 #include <stdio.h>
 
 
+void arr_show() {
+
+	int arr[] = { 1, 2,3 ,4  };
+
+	for (int i = 0; i < 4; i++)
+	{
+		printf("%d ",*(arr + i));
+	}
+}
+
+
+
 /**
 *	数组创建时，一定要指定长度\
 */

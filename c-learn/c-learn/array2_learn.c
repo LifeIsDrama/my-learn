@@ -28,6 +28,10 @@ void arr2_size() {
 	int size3 = sizeof(arr) / sizeof(arr[0][0]);
 }
 
+int main() {
+	arr2_size();
+}
+
 void  arr2_pos(int arr[]) {
 	
 	printf("%d", arr[0] + 1);

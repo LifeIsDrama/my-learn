@@ -52,10 +52,10 @@ size_t my_strlen(char str[]) {
 *	常量字符串无法修改
 */
 void strcpy_test1() {
-	char* p = "abcdef";
+	const char* p = "abcdef";
 	char arr[] = "ok";
 	// 无法修改，因为p指向的是常量字符串
-	strcpy(p, arr);
+	//strcpy(p, arr);
 }
 
 void my_strcpy(char dest[], char str[]) {
@@ -99,7 +99,7 @@ void strncpy_test() {
 void strcat_test() {
 
 	char str1[8] = "abcdef";
-	char* str2 = "abcdef";
+	const char* str2 = "abcdef";
 
 	strcat_s(str1, 8,str2);
 
@@ -111,7 +111,7 @@ void strcat_test() {
 void strncat_test() {
 
 	char str1[9] = "abcdef";
-	char* str2 = "abcdef";
+	const char* str2 = "abcdef";
 	// 溢出
 	//strncat(str1,str2,4);
 	strncat_s(str1, 9, str2, 4);

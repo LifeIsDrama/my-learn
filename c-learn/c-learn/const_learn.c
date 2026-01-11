@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+extern int global_var;
+extern int global_var;
+
+
 void zimian_test() {
 
 	//

@@ -1,4 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
 
 struct Score {
 	int math;
@@ -32,7 +33,7 @@ void print_stu2(Student* stu1) {
 	printf("%s %d %d %d \n", (*stu1).name, stu1->score.chinese, (*stu1).score.english, stu1 ->score.math);
 }
 
-int main() {
+void struct_param() {
 	Student stu1 = { "Eve", {90, 85, 88} };
 
 	print_stu1(stu1);

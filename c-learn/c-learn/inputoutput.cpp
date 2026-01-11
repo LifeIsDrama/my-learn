@@ -1,6 +1,20 @@
 #define _CRT_SECURE_NO_WARNINGS
 # include <stdio.h>
 #include "inputoutput.h"
+#include <string.h>
+#include <ctype.h>
+
+//
+void test_getchar() {
+	
+	char ch = '\0';
+	while ((ch = getchar()) != EOF) {
+		if(isdigit(ch)) {
+			putchar(ch);
+		}
+	}
+}
+
 
 
 

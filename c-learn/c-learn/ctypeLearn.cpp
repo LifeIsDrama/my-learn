@@ -4,6 +4,21 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+void mainaaa() {
+	int n = 1024;
+	// 转string 
+	char str[20] = { 0 };
+	sprintf(str, "%d", n);
+	// 打印
+	for (int i = 0; i < strlen(str); i++)
+	{
+		printf("%c ", str[i]);
+	}
+
+
+}
+
 /**
 	atoi() 和 strtol()的区别
 */
@@ -70,7 +85,7 @@ void snprintf_test() {
 /**
 	strcpy() - 字符串拷贝
 */
-void strcpy_test() {
+void strcpssy_test() {
 	// strcpy字符串拷贝，str1操作str会导致程序崩溃
 	char str[] = "helloworld";
 	char str1[5];

@@ -19,22 +19,22 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Array3Learn.cpp" />
-    <ClCompile Include="ArrayLearn.cpp">
+    <ClCompile Include="array_param.c" />
+    <ClCompile Include="array_learn.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <LanguageStandard_C Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">stdc11</LanguageStandard_C>
     </ClCompile>
     <ClCompile Include="binaryLearn.c" />
-    <ClCompile Include="boolLearn.c" />
+    <ClCompile Include="bool_learn.c" />
     <ClCompile Include="const_learn.c" />
     <ClCompile Include="ctypeLearn.cpp" />
-    <ClCompile Include="funcLearn.cpp">
+    <ClCompile Include="func_learn.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="funcPoint.cpp" />
-    <ClCompile Include="HelloWorld.c" />
-    <ClCompile Include="if-learn.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="if-learn.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="inputoutput.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
@@ -43,11 +43,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="pointLearn.cpp" />
-    <ClCompile Include="sortLearn.cpp" />
-    <ClCompile Include="sortLearn1.cpp" />
-    <ClCompile Include="sortLearn2.cpp" />
+    <ClCompile Include="sort_learn.c" />
+    <ClCompile Include="sort_learn_del_no_define.c" />
+    <ClCompile Include="sort_learn_repeat_define.c" />
     <ClCompile Include="static_learn.c" />
-    <ClCompile Include="strFunction.c" />
+    <ClCompile Include="strFunction.cpp" />
     <ClCompile Include="strLearn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
@@ -56,14 +56,15 @@
     <ClCompile Include="struct_name.c" />
     <ClCompile Include="struct_param.c" />
     <ClCompile Include="struct_point.c" />
+    <ClCompile Include="string_learn.c" />
     <ClCompile Include="type_learn.c" />
-    <ClCompile Include="while-learn.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    <ClCompile Include="while-learn.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="windowsLeaarn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Array2Learn.cpp" />
+    <ClCompile Include="array2_learn.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="funcLearn.h" />

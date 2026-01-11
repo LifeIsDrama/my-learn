@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\bit2 字符串">
-      <UniqueIdentifier>{65ab040e-524e-4249-99c1-244ab3507f4b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\bit2 windows api">
       <UniqueIdentifier>{b93a4e9e-2184-4c44-95f1-e3bd5f059788}</UniqueIdentifier>
     </Filter>
@@ -42,43 +39,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.c">
+    <ClCompile Include="HelloWorld.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="if-learn.cpp">
+    <ClCompile Include="if-learn.c">
       <Filter>源文件\bit02分支和循环</Filter>
     </ClCompile>
-    <ClCompile Include="while-learn.cpp">
+    <ClCompile Include="while-learn.c">
       <Filter>源文件\bit02分支和循环</Filter>
     </ClCompile>
-    <ClCompile Include="ArrayLearn.cpp">
+    <ClCompile Include="array_learn.c">
       <Filter>源文件\bit04数组</Filter>
-    </ClCompile>
-    <ClCompile Include="strLearn.cpp">
-      <Filter>源文件\bit2 字符串</Filter>
     </ClCompile>
     <ClCompile Include="windowsLeaarn.cpp">
       <Filter>源文件\bit2 windows api</Filter>
     </ClCompile>
-    <ClCompile Include="funcLearn.cpp">
+    <ClCompile Include="func_learn.c">
       <Filter>源文件\bit03函数</Filter>
     </ClCompile>
-    <ClCompile Include="mathLearn.cpp">
-      <Filter>源文件\bit03函数</Filter>
-    </ClCompile>
-    <ClCompile Include="boolLearn.c">
+    <ClCompile Include="bool_learn.c">
       <Filter>源文件\bit01数据类型</Filter>
     </ClCompile>
-    <ClCompile Include="sortLearn.cpp">
+    <ClCompile Include="sort_learn.c">
       <Filter>源文件\bit03函数</Filter>
     </ClCompile>
-    <ClCompile Include="sortLearn1.cpp">
+    <ClCompile Include="sort_learn_del_no_define.c">
       <Filter>源文件\bit03函数</Filter>
     </ClCompile>
-    <ClCompile Include="sortLearn2.cpp">
+    <ClCompile Include="sort_learn_repeat_define.c">
       <Filter>源文件\bit03函数</Filter>
     </ClCompile>
-    <ClCompile Include="Array2Learn.cpp">
+    <ClCompile Include="array2_learn.c">
       <Filter>源文件\bit04数组</Filter>
     </ClCompile>
     <ClCompile Include="pointLearn.cpp">
@@ -96,13 +87,13 @@
     <ClCompile Include="ctypeLearn.cpp">
       <Filter>源文件\函数库</Filter>
     </ClCompile>
-    <ClCompile Include="Array3Learn.cpp">
+    <ClCompile Include="array_param.c">
       <Filter>源文件\bit04数组</Filter>
     </ClCompile>
     <ClCompile Include="funcPoint.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="strFunction.c">
+    <ClCompile Include="strFunction.cpp">
       <Filter>源文件\函数库</Filter>
     </ClCompile>
     <ClCompile Include="type_learn.c">
@@ -125,6 +116,15 @@
     </ClCompile>
     <ClCompile Include="struct_param.c">
       <Filter>源文件\bit06结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="mathLearn.cpp">
+      <Filter>源文件\函数库</Filter>
+    </ClCompile>
+    <ClCompile Include="string_learn.c">
+      <Filter>源文件\bit04数组</Filter>
+    </ClCompile>
+    <ClCompile Include="strLearn.cpp">
+      <Filter>源文件\函数库</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -1,11 +1,28 @@
 #define _CRT_SECURE_NO_WARNINGS
 # include <stdio.h>
-#include <cstring>
+#include <string.h>
 #include "while-learn.h"
+#include <math.h>
 
 
 
 
+
+
+
+
+/*
+*	goto”Ôæ‰¡∑œ∞
+*/
+void goto_test() {
+
+haha:
+	printf("hello hhh\n");
+	printf("hello hhh\n");
+	printf("hello hhh\n");
+	
+	goto haha;
+}
 
 
 /*
@@ -44,3 +61,16 @@ void while_test2()
 	printf("sum is %d", sum);
 }
 
+
+/**
+* for—≠ª∑µ˜ ‘
+*/
+void for_debug()
+{
+	int sum = 0;
+	for (int i = 1; i <= 10; i++)
+	{
+		sum += i;
+	}
+	printf("sum is %d", sum);
+}
