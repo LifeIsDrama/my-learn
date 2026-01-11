@@ -22,3 +22,4 @@ void main_typeLearn() {
 	printf("%d \n", global_a);
 }
 
+

@@ -5,6 +5,17 @@
 #include <locale.h>
 
 
+int str_reverse() {
+	// 正确用法
+	char str1[] = "hello";
+	strrev(str1); // 修改原始字符串
+	printf("%s\n", str1); // 输出: olleh
+
+	// 错误用法
+	char* str2 = "hello";
+	strrev(str2); // 会导致程序崩溃
+}
+
 /*
 *	strlen(str) - 返回字符串长度 
 *   1. 字符串必须是标准格式，也就是以'\0'字符结尾

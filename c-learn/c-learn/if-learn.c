@@ -5,7 +5,7 @@
 /*
 *	1-100之间的奇数
 */
-void test2()
+void if_test1()
 {
 	for (int i = 1; i <= 100; i++)
 	{
@@ -18,7 +18,7 @@ void test2()
 /**
 *	奇数、偶数 判度
 */
-void test1()
+void if_test2()
 {
 	int num;
 	scanf("%d", &num);

@@ -88,11 +88,12 @@ void test7(int* arr, int row, int col) {
 }
 
 
-void main333() {
+void arr_param_main() {
 	
 	int arr[2][5] = {1,2,3,4,5,6,7,8,9,10};
 		
-	test5(arr, 2, 5);
+	test6(arr, 2, 5);
 	test6(arr, 2, 5);
 	test7(arr[0], 2, 5);
 }
+
