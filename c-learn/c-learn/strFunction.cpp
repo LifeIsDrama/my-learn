@@ -5,16 +5,14 @@
 #include <locale.h>
 
 
-int str_reverse() {
+void str_reverse() {
 	// 正确用法
-	char str1[] = "hello";
-	strrev(str1); // 修改原始字符串
-	printf("%s\n", str1); // 输出: olleh
-
-	// 错误用法
-	char* str2 = "hello";
-	strrev(str2); // 会导致程序崩溃
+	char str1[] = "hello world";
+	_strrev(str1);
+	printf("%s \n", str1);
 }
+
+
 
 /*
 *	strlen(str) - 返回字符串长度 

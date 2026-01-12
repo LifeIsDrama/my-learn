@@ -5,6 +5,7 @@
 #include <string.h>
 
 
+
 void mainaaa() {
 	int n = 1024;
 	// תstring 

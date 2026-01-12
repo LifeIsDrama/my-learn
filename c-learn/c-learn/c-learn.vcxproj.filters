@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\bit2 windows api">
-      <UniqueIdentifier>{b93a4e9e-2184-4c44-95f1-e3bd5f059788}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\bit01数据类型">
       <UniqueIdentifier>{0ca4bd14-dfe4-4196-860c-3a5e799c0730}</UniqueIdentifier>
     </Filter>
@@ -37,6 +34,9 @@
     <Filter Include="源文件\函数库">
       <UniqueIdentifier>{67c38cc5-32e7-48dd-97fd-f4202d2fc7c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\bit666windows api">
+      <UniqueIdentifier>{b93a4e9e-2184-4c44-95f1-e3bd5f059788}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HelloWorld.cpp">
@@ -52,7 +52,7 @@
       <Filter>源文件\bit04数组</Filter>
     </ClCompile>
     <ClCompile Include="windowsLeaarn.cpp">
-      <Filter>源文件\bit2 windows api</Filter>
+      <Filter>源文件\bit666windows api</Filter>
     </ClCompile>
     <ClCompile Include="func_learn.c">
       <Filter>源文件\bit03函数</Filter>
@@ -72,7 +72,7 @@
     <ClCompile Include="array2_learn.c">
       <Filter>源文件\bit04数组</Filter>
     </ClCompile>
-    <ClCompile Include="pointLearn.cpp">
+    <ClCompile Include="pointLearn.c">
       <Filter>源文件\bit05指针</Filter>
     </ClCompile>
     <ClCompile Include="struct_learn.c">
@@ -81,7 +81,7 @@
     <ClCompile Include="binaryLearn.c">
       <Filter>源文件\bit01数据类型</Filter>
     </ClCompile>
-    <ClCompile Include="inputoutput.cpp">
+    <ClCompile Include="inputoutput.c">
       <Filter>源文件\函数库</Filter>
     </ClCompile>
     <ClCompile Include="ctypeLearn.cpp">
@@ -125,6 +125,12 @@
     </ClCompile>
     <ClCompile Include="strLearn.cpp">
       <Filter>源文件\函数库</Filter>
+    </ClCompile>
+    <ClCompile Include="function_point.c">
+      <Filter>源文件\bit05指针</Filter>
+    </ClCompile>
+    <ClCompile Include="arr_point.c">
+      <Filter>源文件\bit05指针</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

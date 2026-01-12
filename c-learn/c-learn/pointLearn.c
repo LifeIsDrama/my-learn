@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /*
 	指针的基本使用
 */
@@ -95,7 +96,6 @@ void point_sub_add() {
 		pi++; // 指针加常数，表示指向下一个
 	}
 }
-
 
 
 
