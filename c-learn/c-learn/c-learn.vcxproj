@@ -45,6 +45,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="pointLearn.c" />
+    <ClCompile Include="point_qsort.c" />
     <ClCompile Include="sort_learn.c" />
     <ClCompile Include="sort_learn_del_no_define.c" />
     <ClCompile Include="sort_learn_repeat_define.c" />

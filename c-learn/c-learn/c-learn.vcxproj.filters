@@ -132,6 +132,9 @@
     <ClCompile Include="arr_point.c">
       <Filter>源文件\bit05指针</Filter>
     </ClCompile>
+    <ClCompile Include="point_qsort.c">
+      <Filter>源文件\bit05指针</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="if-learn.h">
