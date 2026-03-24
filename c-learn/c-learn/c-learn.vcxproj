@@ -33,8 +33,6 @@
     <ClCompile Include="func_learn.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="funcPoint.cpp" />
-    <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="if-learn.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
@@ -50,7 +48,7 @@
     <ClCompile Include="sort_learn_del_no_define.c" />
     <ClCompile Include="sort_learn_repeat_define.c" />
     <ClCompile Include="static_learn.c" />
-    <ClCompile Include="strFunction.cpp" />
+    <ClCompile Include="str_test2.cpp" />
     <ClCompile Include="strLearn.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
     </ClCompile>
@@ -60,6 +58,8 @@
     <ClCompile Include="struct_param.c" />
     <ClCompile Include="struct_point.c" />
     <ClCompile Include="string_learn.c" />
+    <ClCompile Include="str_test.c" />
+    <ClCompile Include="test.c" />
     <ClCompile Include="type_learn.c" />
     <ClCompile Include="while-learn.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>

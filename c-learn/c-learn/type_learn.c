@@ -27,30 +27,32 @@ void main_typeLearn() {
 
 
 void int_sign_unsign_test() {
-
 	int a = -1;
 	// 直接转译成补码，存入unsigend int中
 	unsigned int b = -1;
 	float f = -1.0;
-	// int和unsigned比较 直接比较补码
+	// int和unsigned比较 -> int提升为unsigned 啥也不做 -> -1补 -1补 比较
 	bool isstrue = a == b;
+	// int转换成float -> 比较
 	bool isstrue1 = a == f;
 	printf("%d", isstrue);
 }
 
+
 void int_sign_unsign_test1() {
 
 	int a = 1;
-	// 直接转译成补码，存入unsigend int中
+	// -5直接转译成补码  -> 变量提升  ->存入unsigend int中
 	unsigned int b = -5;
 	
-	// 直接补码运算，然后放入int中
+	// int提升  -> 补码运算  -> 然后放入int中
 	int sum = a + b;
 	printf("%d", sum);
 
 	// 这种方式，是直接给定补码的方式
 	int c = 0xfffffffb;
 }
+
 
 void char_unchar_printf() {
 	int a = 0xf0000001;
@@ -64,7 +66,7 @@ void char_unchar_printf() {
 	int i = chu;
 	// 由此课件，chu和ch打印结果不同，是这里的原因。
 	// 
-	// 解引用时候，把ch/chu转化成int(根据符号位进行0填充，char和unchar在这里填充不同)，译码的结果就不同
+	// 打印的时候，把ch/chu转化成int(根据符号位进行0填充，char和unchar在这里填充不同)，译码的结果就不同
 	// 打印的时候，如果长度不一样，会先扩容，然后按格式打印
 	printf("%d", *(pc + 3));
 }
@@ -111,7 +113,7 @@ void int_unsigend_compare() {
 	// 比较他们是否> 0  true/false
 	// 其实不是，比较的时候，会自动把int转换成unsigned int
 	// 大于小于 译码后比较
-	// 先把0转换成unsigned,其实等于啥也没做  -> 不叫补码111 > 补码000
+	// 先把0转换成unsigned,其实等于啥也没做  -> 按照unsigend int规则补码111 > 补码000
 	bool b1 = i1 > 0;
 	// 按照int规则 比较补码1111 < 0000
 	bool b2 = i2 > 0;

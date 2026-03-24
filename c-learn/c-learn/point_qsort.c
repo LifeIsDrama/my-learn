@@ -40,16 +40,3 @@ int cmp(void* el1, void* el2) {
 
 
 
-int main() {
-	int arr[] = { 4,5,7,8,9,3 };
-	int size = sizeof(arr)/ sizeof(arr[0]);
-	my_qsort(arr, size, sizeof(arr[0]), cmp);
-
-
-	for (int i = 0; i < size; i++)
-	{
-		printf("%d ", arr[i]);
-	}
-
-	
-}

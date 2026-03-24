@@ -37,11 +37,11 @@
     <Filter Include="源文件\bit666windows api">
       <UniqueIdentifier>{b93a4e9e-2184-4c44-95f1-e3bd5f059788}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\func-符串函数">
+      <UniqueIdentifier>{920a9c7d-e4c1-4bd3-a6ec-55722dcec4cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="if-learn.c">
       <Filter>源文件\bit02分支和循环</Filter>
     </ClCompile>
@@ -90,12 +90,6 @@
     <ClCompile Include="array_param.c">
       <Filter>源文件\bit04数组</Filter>
     </ClCompile>
-    <ClCompile Include="funcPoint.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="strFunction.cpp">
-      <Filter>源文件\函数库</Filter>
-    </ClCompile>
     <ClCompile Include="type_learn.c">
       <Filter>源文件\bit01数据类型</Filter>
     </ClCompile>
@@ -134,6 +128,15 @@
     </ClCompile>
     <ClCompile Include="point_qsort.c">
       <Filter>源文件\bit05指针</Filter>
+    </ClCompile>
+    <ClCompile Include="str_test.c">
+      <Filter>源文件\func-符串函数</Filter>
+    </ClCompile>
+    <ClCompile Include="str_test2.cpp">
+      <Filter>源文件\func-符串函数</Filter>
+    </ClCompile>
+    <ClCompile Include="test.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
