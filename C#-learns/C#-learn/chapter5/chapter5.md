@@ -153,3 +153,162 @@ for (int i = 0; i < strArr.Length; i++)
 	Console.WriteLine(strArr[i]);
 }
 ```
+<font color="blue">插入和填充</font>
+
+|格式| 名称|
+|-|-|-|
+|str.Insert(idx, str1)|插入|
+|str.padLeft(toLen, ch)|填充ch到toLen宽度|
+|str.padRight(toLen, ch)|填充ch到toLen宽度|
+
+- 如果想在最后插入，可以用`str.insert(str.Length,...)`
+```C#
+// insert()插入
+string str = "梦想还是要有的，万一实现了呢?";
+string str2 = str.Insert(0, "马云说:");
+string str3 = str2.Insert(str2.Length, "你信吗？");
+// 填充
+string s = "*^__^*";
+string s1 = s.PadLeft(s.Length+1, '(');
+string s2 = s1.PadRight(s1.Length+1, ')');
+Console.WriteLine(s2);
+```
+
+<font color="blue">字符串删除</font>
+
+|方法| 含义|
+|-|-|
+|str.remove(idx, con)| 从idx位置上，删除con，包含idx|
+|str.remove(idx)|删除idx到最后|
+- con不能为0、负数。负数，报错。0，没有意义。
+
+```c#
+string str = ".NET也开源了！";
+string str2 = str.Remove(4, 2);
+```
+
+<font color="blue">字符串复制</font>
+
+|方法|含义|
+|-|-|
+|String.copy(str1)|复制字符串，返回str2|
+|str.copyTo(sourceIdx, char[] dest, int destIdx, int count)||
+- count的长度要小于sourceIdx到len，destIdx到destLen的长度，否则，会抛异常
+
+```C#
+string str1 = "hello world";
+// reference equals:  true
+string str2;
+str2 = str1;
+Console.WriteLine(object.ReferenceEquals(str1, str2));
+
+// reference equals: false
+string str3 = String.Copy(str1);
+Console.WriteLine(object.ReferenceEquals(str1, str3));
+
+
+string str = "机器学习和深度学习";
+char[] dest = new char[str.Length];
+str.CopyTo(0, dest, 0, 4);
+
+Console.Write(dest);
+```
+
+<font color="blue">字符串替换</font>
+
+|方法|含义|
+|-|-|
+|str.replace(oldChar, newChar)|替换,返回新str|
+|str.replace(oldStr, newStr)||
+
+```c#
+string str = "one world,one dream";
+string str2 = str.Replace(',', '-');
+string str3 = str2.Replace("one world", "One World");
+```
+
+---
+
+<font color="red">StringBuilder</font>
+
+使用+生成新的字符串，内存开辟新空间，生成新的String对象。增加内存开销。
+
+用StringBuilder来解决这个问题。
+
+
+|构造| |
+|-|-|
+|StringBuilder(str, cap)||
+- 根据str的内容创建StringBuilder
+- cap表示StringBuilder的初始容量
+
+StringBuilder位于System.Text命名空间，使用时，需要引入命名空间。
+
+|方法||
+|-|-|
+|append()| 追加|
+|appendFormat()|格式化，然后追加|
+|insert()| 插入|
+|remove()| 移除|
+|replace()| 替换|
+
+```C#
+int num = 1000;
+StringBuilder sb = new StringBuilder("华为荣耀");
+
+sb.Append("VS 小米红米");
+sb.AppendFormat("{0:C}", num);
+Console.WriteLine(sb);
+
+sb.Insert(0, "APK:");
+Console.WriteLine(sb);
+
+sb.Remove(0, 1);
+Console.WriteLine(sb);
+
+sb.Replace("PK", "对比");
+Console.WriteLine(sb);
+```
+---
+
+<font color="red">正则表达式</font>
+
+进行字符串操作，需要按照某种规则，操作字符串。正则表达式用于表示这些规则。
+
+<font color="blue">行定位符</font>
+
+`^`表示行以xx开始,`$`表示行以xx结束。
+```code
+^tm // 匹配以tm开头、结尾
+tm$
+tm // 匹配包含tm的字符串
+```
+<font color="blue">元字符</font>
+
+|元字符| 描述|
+|-|-|
+|||
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

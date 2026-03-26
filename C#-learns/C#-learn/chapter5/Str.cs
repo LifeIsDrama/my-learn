@@ -71,5 +71,56 @@ namespace C__learn.chapter5
 				Console.WriteLine(strArr[i]);
 			}
 		}
+
+		public static void str7() {
+			string str = "梦想还是要有的，万一实现了呢?";
+			string str2 = str.Insert(0, "马云说:");
+			string str3 = str2.Insert(str2.Length, "你信吗？");
+
+			Console.WriteLine(str);
+			Console.WriteLine(str2);
+			Console.WriteLine(str3);
+
+
+			string s = "*^__^*";
+			string s1 = s.PadLeft(s.Length+1, '(');
+			string s2 = s1.PadRight(s1.Length+1, ')');
+			Console.WriteLine(s2);
+		}
+
+		public static void str8() {
+			string str = ".NET也开源了！";
+			string str2 = str.Remove(4, 2);
+			Console.WriteLine(str2);
+		}
+
+		public static void str9() {
+			string str1 = "hello world";
+			// reference equals:  true
+			string str2;
+			str2 = str1;
+			Console.WriteLine(object.ReferenceEquals(str1, str2));
+
+			// reference equals: false
+			string str3 = String.Copy(str1);
+			Console.WriteLine(object.ReferenceEquals(str1, str3));
+
+
+			string str = "机器学习和深度学习";
+			char[] dest = new char[str.Length];
+			str.CopyTo(0, dest, 0, 4);
+
+			Console.Write(dest);
+		}
+
+		public static void str10() {
+			string str = "one world,one dream";
+			string str2 = str.Replace(',', '-');
+			string str3 = str2.Replace("one world", "One World");
+
+			Console.WriteLine(str2);
+			Console.WriteLine(str3);
+		}
+
 	}
 }
