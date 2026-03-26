@@ -61,10 +61,13 @@
     <Compile Include="chapter5\CharClass.cs" />
     <Compile Include="chapter5\Str.cs" />
     <Compile Include="chapter5\StrBuilder.cs" />
+    <Compile Include="chapter6\IfClass.cs" />
+    <Compile Include="chapter6\whileClass.cs" />
     <Compile Include="MainClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="chapter3\变量常量.cs" />
     <None Include="chapter3\chapter3.md" />
+    <None Include="chapter6\chapter6.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

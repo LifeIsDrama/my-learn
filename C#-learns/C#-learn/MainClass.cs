@@ -8,6 +8,7 @@ using C__learn.chapter1.view;
 using C__learn.chapter3;
 using C__learn.chapter4;
 using C__learn.chapter5;
+using C__learn.chapter6;
 
 namespace C__learn
 {
@@ -20,7 +21,7 @@ namespace C__learn
 
 		static void Main(string[] args)
 		{
-			StrBuilder.str2();
+			whileClass.for4();
 		}
 	}
 }
