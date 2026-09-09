@@ -58,5 +58,22 @@ public partial class g09_input : Node2D
 				GD.Print("===========");
 			}
 		}
+
+		// 鼠标输入事件
+		if (@event is InputEventMouse)
+		{
+			var mouseEvent = @event as InputEventMouse;
+			// 鼠标输入包括鼠标移动、鼠标按下
+			if (mouseEvent.IsPressed())
+			{
+				// 输出位置
+				GD.Print(mouseEvent.Position);
+				GD.Print(mouseEvent.Position.X, mouseEvent.Position.Y);
+
+				// 输出按键
+				GD.Print(mouseEvent.ButtonMask);
+			}
+		}
+
 	}
 }

@@ -1,0 +1,2 @@
+﻿1506
+D:/Program/Godot_v4.7.1-stable_mono/Godot_v4.7.1-stable_mono_win64.exe

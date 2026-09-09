@@ -9,10 +9,10 @@ using C__learn.chapter3;
 using C__learn.chapter4;
 using C__learn.chapter5;
 using C__learn.chapter6;
+using C__learn.chapter7;
 
 namespace C__learn
 {
-
 
 	internal class MainClass
 	{
@@ -21,7 +21,7 @@ namespace C__learn
 
 		static void Main(string[] args)
 		{
-			whileClass.for4();
+			ArrClass.arr2();
 		}
 	}
 }
