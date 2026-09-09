@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cwrnvnxf2bsyt"]
+
+[ext_resource type="Script" uid="uid://by2iytow5i463" path="res://scripts/g09_input.cs" id="1_0w6nk"]
+
+[node name="Node2D" type="Node2D" unique_id=1611973658]
+
+[node name="InputTest" type="Node2D" parent="." unique_id=385577009]
+script = ExtResource("1_0w6nk")
